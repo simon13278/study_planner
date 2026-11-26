@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Phase 1 — Static Screen",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/phase1_main.dart"
+    },
+    {
+      "name": "Phase 2 — Working List",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/phase2_main.dart"
+    },
+    {
+      "name": "Phase 3 — Statistics & Cards",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/phase3_main.dart"
+    },
+    {
+      "name": "Phase 4 — Second Screen",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/phase4_main.dart"
+    },
+    {
+      "name": "Phase 5 — Database Persistence",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/phase5_main.dart"
+    }
+  ]
+}

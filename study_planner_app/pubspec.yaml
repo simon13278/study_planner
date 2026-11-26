@@ -1,0 +1,30 @@
+name: study_planner
+description: My Study Planner - A Flutter app to plan and track study goals.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Phase 5 (SQLite) ───────────────────────────────────────────────────
+  sqflite: ^2.3.0   # local SQLite database for phase5_main.dart
+  path: ^1.8.0      # safe file-path joining for the database file
+
+  # ── Full app (Firebase) ────────────────────────────────────────────────
+  firebase_core: ^2.24.2        # required by all Firebase services
+  cloud_firestore: ^4.14.0      # Firestore database for main.dart
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
